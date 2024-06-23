@@ -1,11 +1,11 @@
-package testwebdocket.Controller
+package testwebsocket.Controller
 
 import org.springframework.messaging.handler.annotation.MessageMapping
 import org.springframework.messaging.handler.annotation.SendTo
 import org.springframework.stereotype.Controller
 import org.springframework.web.util.HtmlUtils
-import testwebdocket.Models.Greeting
-import testwebdocket.Models.HelloMessage
+import testwebsocket.Model.Greeting
+import testwebsocket.Model.HelloMessage
 
 @Controller
 class GreetingController {

@@ -1,11 +1,11 @@
-package testwebdocket
+package testwebsocket
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TestwebdocketApplication
+class TestWebSocketApplication
 
 fun main(args: Array<String>) {
-	runApplication<TestwebdocketApplication>(*args)
+	runApplication<TestWebSocketApplication>(*args)
 }

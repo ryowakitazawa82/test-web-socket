@@ -1,10 +1,10 @@
-package testwebdocket
+package testwebsocket
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class TestwebdocketApplicationTests {
+class TestWebSocketApplicationTests {
 
 	@Test
 	fun contextLoads() {
